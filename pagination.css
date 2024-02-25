@@ -1,21 +1,25 @@
-.pagination{
+/* Center-align the pagination links */
+.pagination {
     text-align: center;
 }
 
-.pagination a{
-    color: black;
-    text-decoration: none;
-    padding: 8px 15px;
-    display: inline-block;
+/* Style for the pagination links */
+.pagination a {
+    color: black; /* Set text color to black */
+    text-decoration: none; /* Remove underline from links */
+    padding: 8px 15px; /* Add padding around the links */
+    display: inline-block; /* Display links as inline-block elements */
 }
 
-.pagination a.active{
-    background-color: greenyellow;
-    font-weight: bold;
-    border-radius: 5px;
+/* Style for the active pagination link */
+.pagination a.active {
+    background-color: greenyellow; /* Set background color for active link */
+    font-weight: bold; /* Make the text bold for active link */
+    border-radius: 5px; /* Add border radius to create rounded corners */
 }
 
-.pagination a:hover:not(.active){
-    background-color: lightgrey;
-    border-radius: 5px;
+/* Hover effect for pagination links */
+.pagination a:hover:not(.active) {
+    background-color: lightgrey; /* Change background color on hover */
+    border-radius: 5px; /* Add border radius to create rounded corners */
 }
